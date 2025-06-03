@@ -1,7 +1,7 @@
 import { GoogleGenAI } from '@google/genai';
 
 export async function runChat(prompt: string) {
-  const apiKey = 'AIzaSyAQzkshRopnvFmpDyO979qrSImUp7CeQyc';
+  const apiKey = 'api_key';
   const ai = new GoogleGenAI({ apiKey });
 
   const messages = [
