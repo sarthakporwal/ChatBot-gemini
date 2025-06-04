@@ -72,6 +72,7 @@ const ContextProvider = (props) => {
     resultData,
     input,
     setInput,
+    newChat,
     onSent: (prompt) => fetchAnswer(prompt) // 💡 key fix
   };
 
